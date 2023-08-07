@@ -55,6 +55,12 @@
 		</snapshotRepository>
 	</distributionManagement>
 
+	<scm>
+		<connection>scm:git:https://github.com/zibilal/intro-maven.git</connection>
+		<developerConnection>scm:git:https://github.com/zibilal/intro-maven.git</developerConnection>
+		<url>https://github.com/zibilal/intro-maven</url>
+	</scm>
+
 	<build>
 		<plugins>
 			<plugin>
